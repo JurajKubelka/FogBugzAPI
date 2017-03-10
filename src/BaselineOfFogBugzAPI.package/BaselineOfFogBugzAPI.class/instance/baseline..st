@@ -9,6 +9,8 @@ baseline: spec
 					versionString: #stable ];
 			package: #'FogBugzAPI-Core' with: [ spec requires: #( 'Soup' ) ];
 			package: #'FogBugzAPI-Tests' with: [ spec requires: #( #'FogBugzAPI-Core' ) ];
+			package: #'FogBugzAPI-Spec' with: [ spec requires: #( #'FogBugzAPI-Core' ) ];
 			group: 'core' with: #( #'FogBugzAPI-Core' );
 			group: 'tests' with: #( #'FogBugzAPI-Tests' );
-			group: 'default' with: #( core tests ) ]
+			group: 'ui' with: #( #'FogBugzAPI-Spec' );
+			group: 'default' with: #( core ui tests ) ]

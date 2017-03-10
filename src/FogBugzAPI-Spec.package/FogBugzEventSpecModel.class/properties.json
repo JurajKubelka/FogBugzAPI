@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "FogBugzAPI-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"descriptionModel",
+		"commentModel",
+		"changesModel",
+		"dateModel",
+		"userModel",
+		"attachmentModel"
+	],
+	"name" : "FogBugzEventSpecModel",
+	"type" : "normal"
+}
