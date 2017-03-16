@@ -1,5 +1,5 @@
 *FogBugzAPI-Spec
-gtInspectorEventsIn: composite 
+gtInspectorEventInfoIn: composite 
 	<gtInspectorPresentationOrder: 1>
 	^ composite morph 
 		title: [ 'Info' translated ];

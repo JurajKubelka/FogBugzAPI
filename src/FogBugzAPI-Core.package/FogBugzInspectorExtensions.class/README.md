@@ -1,0 +1,1 @@
+I provide GT-Inspector extensions that can be reused in various places (packages).
