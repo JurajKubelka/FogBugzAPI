@@ -1,3 +1,3 @@
 testing
 isFogBugz
-	^ self id = 1
+	^ self id = -1
