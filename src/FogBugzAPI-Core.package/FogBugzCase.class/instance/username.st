@@ -1,3 +1,3 @@
 accessing
 username
-	^ self user username
+	^ self user ifNotNil: #username

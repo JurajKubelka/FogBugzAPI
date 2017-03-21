@@ -14,6 +14,5 @@ on: aFogBugzCase
 		parent: (aFogBugzCase parentCase ifNotNil: #printString ifNil: '');
 		subcases: aFogBugzCase subcases;
 		configuration: (String streamContents: [ :stream | 
-			stream 
-				<< aFogBugzCase configuration
-				<< aFogBugzCase configurationVersion ])
+			aFogBugzCase configuration ifNotNil: [ stream << aFogBugzCase configuration ].
+			aFogBugzCase configurationVersion ifNotNil: [ stream << aFogBugzCase configurationVersion ] ] )

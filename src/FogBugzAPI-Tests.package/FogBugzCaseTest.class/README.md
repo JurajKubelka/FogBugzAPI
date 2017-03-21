@@ -1,0 +1,1 @@
+A FogBugzCaseTest is a test class for testing the behavior of FogBugzCase

@@ -7,6 +7,7 @@ on: aFogBugzEvent
 		comment: aFogBugzEvent comment;
 		description: aFogBugzEvent description;
 		changes: aFogBugzEvent changes;
-		attachment: (aFogBugzEvent attachements size isZero
-			ifTrue: [ '' ]
-			ifFalse: [ aFogBugzEvent attachements size asString, 'attachments' ])
+		attachment: (aFogBugzEvent attachements ifNotNil: [ :attachements | 
+			attachements size isZero
+				ifTrue: [ '' ]
+				ifFalse: [ aFogBugzEvent attachements size asString, 'attachments' ] ] )
