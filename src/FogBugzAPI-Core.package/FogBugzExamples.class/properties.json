@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 1/9/2017 18:55",
+	"super" : "Object",
+	"category" : "FogBugzAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FogBugzExamples",
+	"type" : "normal"
+}
