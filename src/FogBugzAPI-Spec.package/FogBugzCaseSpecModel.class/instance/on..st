@@ -5,6 +5,7 @@ on: aFogBugzCase
 		milestone: aFogBugzCase milestone;
 		username: aFogBugzCase username;
 		status: aFogBugzCase status;
+		tags: aFogBugzCase tags;
 		dates: (String streamContents: [ :stream | 
 			stream 
 				<< 'Opened: ' << aFogBugzCase dateOpened asStringLocalYMDHMFogBugz << String cr

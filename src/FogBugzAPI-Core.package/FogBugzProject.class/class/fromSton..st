@@ -1,7 +1,4 @@
-ston-core
-fromSton: stonReader
-	| instance dictionary |
-	dictionary := stonReader parseSimpleValue.
-	instance := self id: (dictionary at: #id).
-	instance title: (dictionary at: #title).
-	^ instance
+instance creation
+fromSton: readStream
+	"We ignore the singleton because STON is used only for examples."
+	^ self basicNew initialize fromSton: readStream
