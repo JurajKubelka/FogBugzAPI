@@ -8,7 +8,7 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/PharoExtras/Soup/main/';
 					versionString: #stable ];
 			package: #'FogBugzAPI-Core' with: [ spec requires: #( 'Soup' ) ];
-			package: #'FogBugzAPI-Tests' with: [ spec requires: #( #'FogBugzAPI-Core' ) ];
+			package: #'FogBugzAPI-Tests' with: [ spec requires: #( #'FogBugzAPI-Core' #'FogBugzAPI-Spec' ) ];
 			package: #'FogBugzAPI-Spec' with: [ spec requires: #( #'FogBugzAPI-Core' ) ];
 			group: 'core' with: #( #'FogBugzAPI-Core' );
 			group: 'tests' with: #( #'FogBugzAPI-Tests' );
