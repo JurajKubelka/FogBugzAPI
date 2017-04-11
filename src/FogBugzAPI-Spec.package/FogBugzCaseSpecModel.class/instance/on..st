@@ -16,5 +16,5 @@ on: aFogBugzCase
 		subcases: aFogBugzCase subcases;
 		configuration: (String streamContents: [ :stream | 
 			aFogBugzCase configuration ifNotNil: [ stream << aFogBugzCase configuration ].
-			aFogBugzCase configurationVersion ifNotNil: [ stream << aFogBugzCase configurationVersion ] ] );
+			aFogBugzCase configurationVersion ifNotNil: [ stream << String space << aFogBugzCase configurationVersion ] ] );
 		yourself
