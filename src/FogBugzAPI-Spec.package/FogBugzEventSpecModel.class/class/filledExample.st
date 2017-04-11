@@ -1,5 +1,5 @@
 example
-example
+filledExample
 	<gtExample>
 	^ FogBugzEventSpecModel new
 			description: 'Edited by Alice';

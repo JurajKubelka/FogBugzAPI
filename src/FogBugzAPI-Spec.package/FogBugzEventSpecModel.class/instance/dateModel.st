@@ -1,3 +1,4 @@
 accessing - spec models
 dateModel
-	^ dateModel
+	^ widgets at: #dateModel ifAbsentPut: [ 
+		self newLabel ]

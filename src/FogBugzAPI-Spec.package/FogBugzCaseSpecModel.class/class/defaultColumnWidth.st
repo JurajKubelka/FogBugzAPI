@@ -1,3 +1,3 @@
-accessing
+defaults
 defaultColumnWidth
 	^ (StandardFonts defaultFont widthOfString: 'DESCRIPTION')

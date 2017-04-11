@@ -1,0 +1,1 @@
+I represent a Spec UI widget for FogBugzCase object.

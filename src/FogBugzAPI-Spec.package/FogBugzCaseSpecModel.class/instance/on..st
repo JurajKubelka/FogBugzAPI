@@ -1,4 +1,4 @@
-instance creation
+initialization
 on: aFogBugzCase 
 	self
 		id: aFogBugzCase id title: aFogBugzCase title;

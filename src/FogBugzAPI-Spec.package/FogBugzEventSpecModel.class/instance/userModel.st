@@ -1,3 +1,4 @@
 accessing - spec models
 userModel
-	^ userModel
+	^ widgets at: #userModel ifAbsentPut: [ 
+		self newLabel ]

@@ -1,3 +1,4 @@
 accessing - spec models
 attachmentModel
-	^ attachmentModel
+	^ widgets at: #attachmentModel ifAbsentPut: [ 
+		self newLabel ]

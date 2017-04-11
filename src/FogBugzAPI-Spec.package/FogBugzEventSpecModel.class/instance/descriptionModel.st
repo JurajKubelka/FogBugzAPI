@@ -1,3 +1,4 @@
 accessing - spec models
 descriptionModel
-	^ descriptionModel
+	^ widgets at: #descriptionModel ifAbsentPut: [ 
+		self newLabel ]
