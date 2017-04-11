@@ -1,5 +1,5 @@
 example
-example
+filledExample
 	<gtExample>
 	^ FogBugzCaseSpecModel new
 		id: '14586' title: 'Wrong size for Athens surface pattern paint from a Form';

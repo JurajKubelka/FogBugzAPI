@@ -1,3 +1,5 @@
 accessing - spec models
 configurationPanel
-	^ configurationPanel
+	^ widgets at: #configurationPanel ifAbsentPut: [ 
+		widgets at: #configurationLabel put: (self newLabel label: 'Configuration'; yourself).
+		self newTextInput enabled: false; yourself ]

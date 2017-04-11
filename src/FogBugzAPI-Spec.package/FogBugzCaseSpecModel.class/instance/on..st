@@ -1,4 +1,4 @@
-initialization
+instance creation
 on: aFogBugzCase 
 	self
 		id: aFogBugzCase id title: aFogBugzCase title;
@@ -16,4 +16,5 @@ on: aFogBugzCase
 		subcases: aFogBugzCase subcases;
 		configuration: (String streamContents: [ :stream | 
 			aFogBugzCase configuration ifNotNil: [ stream << aFogBugzCase configuration ].
-			aFogBugzCase configurationVersion ifNotNil: [ stream << aFogBugzCase configurationVersion ] ] )
+			aFogBugzCase configurationVersion ifNotNil: [ stream << aFogBugzCase configurationVersion ] ] );
+		yourself
