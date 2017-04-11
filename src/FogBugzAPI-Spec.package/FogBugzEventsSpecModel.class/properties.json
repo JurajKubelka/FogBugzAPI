@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 4/11/2017 16:17",
+	"super" : "DynamicComposableModel",
+	"category" : "FogBugzAPI-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FogBugzEventsSpecModel",
+	"type" : "normal"
+}

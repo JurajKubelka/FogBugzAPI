@@ -1,6 +1,7 @@
 gt-inspector-extension
 gtInspectorEventsIn: composite 
-	<gtInspectorPresentationOrder: 1>
+	<gtInspectorPresentationOrder: 2>
 	^ (FogBugzInspectorExtensions gtInspectorEventsIn: composite)
 			display: [ self events ];
+			title: [ 'Summary' ]
 			yourself
