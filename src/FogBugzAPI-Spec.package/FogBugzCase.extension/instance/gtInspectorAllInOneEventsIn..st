@@ -1,4 +1,4 @@
-as yet unclassified
+*FogBugzAPI-Spec
 gtInspectorAllInOneEventsIn: composite 
 	<gtInspectorPresentationOrder: 1>
 	^ composite morph 
