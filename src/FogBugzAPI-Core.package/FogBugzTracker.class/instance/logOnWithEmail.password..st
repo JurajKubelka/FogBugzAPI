@@ -12,4 +12,6 @@ logOnWithEmail: emailAddress password: password
 			FogBugzIdentificationError signal: message ].
 		
 	token := self class extractTokenFrom: response.
-	^ self identifyingToken: token.
+	self identifyingToken: token.
+	self setAuthenticatedUser.
+	^ self identifyingToken
