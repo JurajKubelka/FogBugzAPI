@@ -14,4 +14,5 @@ logOnWithEmail: emailAddress password: password
 	token := self class extractTokenFrom: response.
 	self identifyingToken: token.
 	self setAuthenticatedUser.
+	self user mail ifNil: [ self user mail: emailAddress ].
 	^ self identifyingToken
