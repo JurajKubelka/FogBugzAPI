@@ -1,3 +1,4 @@
 private
 extractErrorMessage: aResponse
-	self shouldBeImplemented
+	"Just display whole UI"
+	^ aResponse contents
